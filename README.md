@@ -1,4 +1,5 @@
 # Meat-Shop
+เป็นระบบการสั่งซื้อเนื้อออนไลน์
 
 ## สมาชิกในกลุ่ม
 * นาย อิศเรศน์   สิงห์ทวีศักดิ์ 6010450802
@@ -19,14 +20,12 @@
 * Laravel Framework
 
 ## ขั้นตอนการติดตั้ง
-* clone project จาก git hub ลง folder www ของ laragon ด้วยคำสั่ง git clone https://github.com/sirzelos/Meat-Shop.git
-* เปิด laragon แล้วใช้คำสั่ง cd ไปที่ folder project ที่ clone มา
-* ใช้คำสั่ง composer install  
-* ใช้คำสั่ง composer dump-autoload 
-* ใช้คำสั่ง cp .env.example .env
-* ใช้คำสั่ง php artisan key:generate
+* ติดตั้งไฟล์   C:\laragon\www\
+* เปิด laragon แล้วใช้คำสั่ง cd ไปที่ folder Meat-Shop 
+* กดรัน Mysql
 * เปิด Mysql จาก laragon ขึ้นมา
-* สร้าง Database ชื่อ project ขึ้นมาโดยใช้ user เป็น root ชั่วคราว (ไม่มีรหัส)
+* สร้าง Database ชื่อ project ตั้ง Collation เป็น utf8mb4_unicode_ci
+* เปิด Terminal ของ Laragon
 * ใช้คำสั่ง php artisan migrate:refresh --seed
 * ใช้คำสั่ง php artisan serve
 * พร้อมใช้งาน
